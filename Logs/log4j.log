@@ -81,3 +81,9 @@
 2022-02-20 20:25:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 2022-02-20 20:25:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 2022-02-20 20:25:10 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/Subhankar%20Jena/.m2/repository/com/aventstack/extentreports/4.0.9/extentreports-4.0.9.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2023-01-15 11:26:58 INFO  Log:11 - =====================================createAccountTest TEST START=========================================
+2023-01-15 11:28:11 INFO  Log:11 - =====================================orderHistoryandDetailsTest TEST START=========================================
+2023-01-15 11:29:38 INFO  Log:11 - =====================================verifyLogo TEST START=========================================
+2023-01-15 11:29:55 INFO  Log:11 - =====================================verifyTitle TEST START=========================================
+2023-01-15 20:45:47 INFO  Log:11 - =====================================verifyLogo TEST START=========================================
+2023-01-15 20:46:58 INFO  Log:11 - =====================================verifyTitle TEST START=========================================

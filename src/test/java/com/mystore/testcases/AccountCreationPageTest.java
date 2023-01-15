@@ -37,8 +37,8 @@ public class AccountCreationPageTest extends BaseClass {
         getDriver().quit();
     }
 
-    @Test(groups = "Sanity",dataProvider = "email", dataProviderClass = DataProviders.class)
-    public void verifyCreateAccountPageTest(String email) throws Throwable {
+      @Test (groups = "Sanity",dataProvider = "email", dataProviderClass = DataProviders.class)
+      public void verifyCreateAccountPageTest(String email) throws Throwable {
         Log.startTestCase("verifyCreateAccountPageTest");
         indexPage= new IndexPage();
         loginPage=indexPage.clickOnSignIn();
