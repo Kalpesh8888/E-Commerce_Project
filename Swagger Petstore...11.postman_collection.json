@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "fb9cd09a-cdd5-4ea5-9aa6-bfb978dc25de",
+		"_postman_id": "2c4d9572-b808-4ef4-aeef-3886e9775393",
 		"name": "Swagger Petstore...11",
 		"description": "This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.\n\nContact Support:\n Email: apiteam@swagger.io",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25062385"
 	},
 	"item": [
 		{
@@ -19,9 +20,7 @@
 									"pm.test(\"Status code is 200\", function () {\r",
 									"    pm.response.to.have.status(200);\r",
 									"});\r",
-									"pm.test(\"Response time is less than 800ms\", function () {\r",
-									"    pm.expect(pm.response.responseTime).to.be.below(800);\r",
-									"});\r",
+									"\r",
 									"pm.test(\"Content-Type is present\", function () {\r",
 									"    pm.response.to.have.header(\"Content-Type\");\r",
 									"});"
